@@ -1,0 +1,58 @@
+.dashboard-container {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+
+.primary-item-container {
+  display: flex;
+  gap: 24px;
+  flex-direction: column;
+}
+.dashboard-item-container {
+  padding: 16px 100px;
+  letter-spacing: 2px;
+}
+
+.quote-container,
+.dashboard-item-container,
+.top-scorer-container {
+  border: 1px solid gray;
+  border-bottom: 4px solid gray;
+  border-right: 2px solid gray;
+  border-radius: 8px;
+}
+
+.quote-container {
+  max-width: 70%;
+  margin: 8px auto 30px auto;
+}
+.quote-container h1 {
+  color: yellowgreen;
+  font-family: cursive;
+}
+.quote-container p {
+  text-align: right;
+  font-family: cursive;
+  padding-right: 8px;
+}
+
+.top-scorer-container {
+  padding: 8px;
+  background-color: var(--secondary-color);
+}
+.top-scorer-container h1 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.top-student-wrapper {
+  margin: 8px;
+  background-color: var(--primary-color);
+  color: var(--background-color);
+  border-radius: 8px;
+  padding: 8px 16px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.marks {
+  font-size: 80px;
+}

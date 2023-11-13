@@ -1,0 +1,42 @@
+:root {
+  --primary-color: #f5f5f5;
+  --secondary-color: #d3d3d347;
+  --background-color: #051a30;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+
+  background: black;
+  color: var(--primary-color);
+  margin: -22px -8px;
+  padding: 22px 8px;
+  min-height: 98vh;
+}
+
+.primary-app-container {
+  max-width: 1500px;
+  margin: 16px auto;
+  display: flex;
+  gap: 16px;
+  /* height: 90vh; */
+}
+.primary-sidebar-wrapper {
+  flex: 10;
+}
+.primary-route-wrapper {
+  flex: 90;
+}
+
+.entity-header-container {
+  background-color: var(--background-color);
+  margin-bottom: 8px;
+  padding: 2px;
+  border-radius: 8px;
+  border-bottom: 2px solid gray;
+}
+
+.display-center {
+  margin: 10vh 40vw;
+}

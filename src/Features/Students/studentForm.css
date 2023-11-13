@@ -1,0 +1,19 @@
+.student-form-container {
+  background-color: var(--primary-color);
+  color: var(--background-color);
+  border-radius: 8px;
+  height: 90vh;
+  overflow-y: auto;
+  padding: 8px;
+}
+
+.student-form-container::-webkit-scrollbar {
+  width: 1px;
+  border-radius: 8px;
+}
+
+.button-stack {
+  margin: 16px;
+  display: flex;
+  justify-content: center;
+}

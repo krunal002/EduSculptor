@@ -1,0 +1,35 @@
+.sidebar-container {
+  background-color: var(--background-color);
+  padding: 8px;
+  border-radius: 8px;
+  height: 90vh;
+}
+
+.header-wrapper {
+  border-bottom: 1px solid;
+}
+
+.navlink-container {
+  display: flex;
+  flex-direction: column;
+  padding: 8px;
+}
+.navlink-wrapper {
+  text-decoration: none;
+  color: var(--primary-color);
+  cursor: pointer;
+
+  margin: 4px 0;
+  padding: 12px 20px 12px 8px;
+  text-align: left;
+  font-weight: bold;
+
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+.active {
+  background-color: var(--primary-color);
+  color: var(--background-color);
+  border-radius: 8px;
+}
