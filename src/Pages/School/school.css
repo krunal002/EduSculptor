@@ -1,0 +1,39 @@
+.school-container {
+  padding: 8px;
+}
+.school-container p {
+  border-bottom: 1px solid;
+  border-radius: 8px;
+  margin: 4px auto;
+  padding: 16px;
+  max-width: 500px;
+  background-color: var(--background-color);
+
+  display: flex;
+  justify-content: space-between;
+}
+.school-container p span {
+  font-weight: bold;
+  font-size: larger;
+}
+
+.top-scorer-wrapper {
+  border: 1px solid;
+  border-radius: 8px;
+  text-align: left;
+  max-width: 500px;
+  margin: 20px auto;
+  overflow: hidden;
+  background-color: var(--background-color);
+}
+.top-scorer-wrapper h4 {
+  margin: 0;
+  padding: 16px;
+  border-bottom: 1px solid;
+  text-align: center;
+  background-color: var(--primary-color);
+  color: var(--background-color);
+}
+.top-scorer-wrapper h3 {
+  padding: 0 16px;
+}

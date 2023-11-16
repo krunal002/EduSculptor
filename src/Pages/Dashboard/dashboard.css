@@ -39,15 +39,15 @@
 
 .top-scorer-container {
   padding: 8px;
-  background-color: var(--secondary-color);
+  background-color: var(--background-color);
 }
 .top-scorer-container h1 {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 .top-student-wrapper {
   margin: 8px;
-  background-color: var(--primary-color);
-  color: var(--background-color);
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
   border-radius: 8px;
   padding: 8px 16px;
   align-items: center;
