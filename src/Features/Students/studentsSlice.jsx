@@ -5,7 +5,7 @@ export const fetchStudents = createAsyncThunk(
   "students/fetchStudents",
   async () => {
     const response = await axios.get(
-      "https://edusculptor.krunalmandlekar.repl.co/student"
+      "https://edu-back-gamma.vercel.app/student"
     );
 
     if (response.status === 200) {
@@ -18,7 +18,7 @@ export const addStudent = createAsyncThunk(
   "students/addStudent",
   async (newStudent) => {
     const response = await axios.post(
-      "https://edusculptor.krunalmandlekar.repl.co/student",
+      "https://edu-back-gamma.vercel.app/student",
       newStudent
     );
     console.log("add student : ", response);
@@ -32,7 +32,7 @@ export const updateStudent = createAsyncThunk(
   "students/updateStudent",
   async ({ id, updatedStudent }) => {
     const response = await axios.post(
-      `https://edusculptor.krunalmandlekar.repl.co/student/${id}`,
+      `https://edu-back-gamma.vercel.app/student/${id}`,
       updatedStudent
     );
 
@@ -46,7 +46,7 @@ export const deleteStudent = createAsyncThunk(
   "students/deleteStudent",
   async (id) => {
     const response = await axios.delete(
-      `https://edusculptor.krunalmandlekar.repl.co/student/${id}`
+      `https://edu-back-gamma.vercel.app/student/${id}`
     );
 
     if (response.status === 200) {
